@@ -1,5 +1,5 @@
 [package]
-name = "advent-of-code-2024"
+name = "advent-of-code-2025"
 version = "0.1.0"
 edition = "2021"
 default-run = "run"
@@ -13,4 +13,4 @@ name = "bench"
 path = "src/bin/bench.rs"
 
 [dependencies]
-regex = "1.11.1"
+regex = "1.12.2"
