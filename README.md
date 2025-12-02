@@ -40,9 +40,10 @@ You might want to add
 
 Result of 100 iterations
 
-| Solution Name | Average | Min | Max |
-| ------------- | ------: | --: | --: |
-|               |         |     |     |
+| Solution Name |  Average |      Min |      Max |
+| ------------- | -------: | -------: | -------: |
+| day1_p1       | 0.316 ms | 0.270 ms | 0.414 ms |
+| day1_p2       | 0.282 ms | 0.261 ms | 0.333 ms |
 
 ## License
 
