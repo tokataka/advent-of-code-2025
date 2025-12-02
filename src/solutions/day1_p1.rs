@@ -27,13 +27,22 @@ mod tests {
     #[test]
     fn test_day1_p1() {
         let lines = "
-
+L68
+L30
+R48
+L5
+R60
+L55
+L1
+L99
+R14
+L82
         "
         .trim()
         .split('\n')
         .map(|x| x.trim())
         .collect();
 
-        assert_eq!(solution(lines), "");
+        assert_eq!(solution(lines), "3");
     }
 }

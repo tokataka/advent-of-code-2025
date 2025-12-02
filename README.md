@@ -42,8 +42,10 @@ Result of 100 iterations
 
 | Solution Name |  Average |      Min |      Max |
 | ------------- | -------: | -------: | -------: |
-| day1_p1       | 0.316 ms | 0.270 ms | 0.414 ms |
-| day1_p2       | 0.282 ms | 0.261 ms | 0.333 ms |
+| day1_p1       | 0.053 ms | 0.045 ms | 0.084 ms |
+| day1_p2       | 0.043 ms | 0.039 ms | 0.056 ms |
+| day2_p1       | 0.007 ms | 0.007 ms | 0.013 ms |
+| day2_p2       | 0.073 ms | 0.067 ms | 0.084 ms |
 
 ## License
 
