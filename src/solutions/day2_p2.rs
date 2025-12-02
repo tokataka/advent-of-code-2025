@@ -4,7 +4,7 @@ pub fn solution(lines: Vec<&str>) -> String {
     let mut result = 0;
     let mut visited = HashSet::new();
 
-    for split in lines[0].split(',') {
+    for split in lines.join("").split(',') {
         let (a, b) = split.trim().split_once('-').unwrap();
 
         let a = a.parse::<i64>().unwrap();
@@ -18,7 +18,7 @@ pub fn solution(lines: Vec<&str>) -> String {
 
             let left_b = match b.ilog10() + 1 {
                 len if len % repeat == 0 => b / 10i64.pow(len / repeat * (repeat - 1)),
-                len => 10i64.pow(len / repeat),
+                len => 10i64.pow(len / repeat) - 1,
             };
 
             for left in left_a..=left_b {

@@ -1,7 +1,7 @@
 pub fn solution(lines: Vec<&str>) -> String {
     let mut result = 0;
 
-    for split in lines[0].split(',') {
+    for split in lines.join("").split(',') {
         let (a, b) = split.trim().split_once('-').unwrap();
 
         let a = a.parse::<i64>().unwrap();
