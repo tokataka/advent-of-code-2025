@@ -46,6 +46,8 @@ Result of 100 iterations
 | day1_p2       | 0.043 ms | 0.039 ms | 0.056 ms |
 | day2_p1       | 0.007 ms | 0.007 ms | 0.013 ms |
 | day2_p2       | 0.073 ms | 0.067 ms | 0.084 ms |
+| day3_p1       | 0.029 ms | 0.028 ms | 0.038 ms |
+| day3_p2       | 0.142 ms | 0.138 ms | 0.164 ms |
 
 ## License
 
